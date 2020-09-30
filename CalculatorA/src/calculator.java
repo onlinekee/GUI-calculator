@@ -71,6 +71,7 @@ public class calculator {
 		frame.getContentPane().add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("1");
+		btnNewButton.setBackground(Color.LIGHT_GRAY);
 		btnNewButton.setBounds(new Rectangle(30, 30, 30, 30));
 		btnNewButton.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, new Color(128, 128, 128), null, null, null));
 		btnNewButton.setFont(new Font("Arial", Font.PLAIN, 13));

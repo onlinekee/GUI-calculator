@@ -38,8 +38,9 @@ public class CalculatorGUIPanel extends JPanel{
 	   and register the button as a listener. */
 	    for (int nextBut = 0; nextBut < digitButtons.length; nextBut++) {
 	      digitButtons[nextBut] = new JButton(buttonLabels[nextBut]);
-
 	      buttonGrid.add(digitButtons[nextBut]);
+	      digitButtons[nextBut].setBorder(new RoundedBorder(10));
+	      digitButtons[nextBut].setFont(new Font("Arial", Font.PLAIN, 13));
 	      digitButtons[nextBut].addActionListener(listener);
 	    }
 	 // Create a message for the user
@@ -47,7 +48,7 @@ public class CalculatorGUIPanel extends JPanel{
 	    instruct.setFont(new Font("Arial", Font.PLAIN, 12));
 	   
 	    // add the components to this JPanel
-	    setLayout(new BorderLayout());
+	    setLayout(new BorderLayout(550,10));
 	    add(instruct, BorderLayout.NORTH);
 	    add(buttonGrid, BorderLayout.CENTER);
 	    add(display, BorderLayout.SOUTH); 
