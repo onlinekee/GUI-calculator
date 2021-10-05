@@ -1,4 +1,4 @@
-Simple Calculator
+Simple GUI Calculator
 
 This project is a simple calculator desktop application implemented using java.
 
@@ -10,3 +10,4 @@ This project is a simple calculator desktop application implemented using java.
 * Division
 
 GUI is updated with better UI/UX
+
