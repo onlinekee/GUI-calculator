@@ -12,7 +12,9 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
-
+/* 
+ * Main Calculator UI class
+ */
 public class Calculator {
    private static final float BTN_FONT_SIZE = 20f; 
    private static final String[][] BTN_LABELS = {
